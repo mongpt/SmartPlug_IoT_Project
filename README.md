@@ -1,4 +1,4 @@
-# 🔌 Smart Plug Project
+# 🔌 Smart Plug IoT Project
 ![](SmartPlug_IoT.jpg)
 This repository contains the implementation details for the Smart Plug, a third-year IoT project developed at Metropolia University of Applied Sciences by Mong Phan, Nadim Tran, Phuong Duong, and Xuan Dang, submitted on March 12, 2025. The project delivers an IoT-based smart plug for remote monitoring and control of electrical appliances, enhancing energy efficiency and user convenience through real-time power monitoring, scheduling, and customizable power limits.
 
