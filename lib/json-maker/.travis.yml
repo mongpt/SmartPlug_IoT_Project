@@ -1,0 +1,18 @@
+compiler:
+  - gcc
+git:
+  depth: 3
+language: c
+os: freebsd
+
+env:
+  - BUILDTYPE=RELEASE
+  - BUILDTYPE=DEBUG
+script:
+  - "mkdir -p build/$BUILDTYPE"
+  - "cd build/$BUILDTYPE"
+  - "cmake --configure -DCMAKE_BUILD_TYPE=$BUILDTYPE ../../"
+  - "cmake --build ."
+  - "cd tests"
+  - "ctest ."
+
