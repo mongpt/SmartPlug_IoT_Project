@@ -82,6 +82,17 @@ The system was rigorously tested for:
   - Enhance the web app with ML-based usage predictions.
   - Integration of multiple devices with different IDs
 
+---
+
+## 📌 Contributors
+
+- **Mong Phan**
+- **Nadim Ahmed**
+- **Xuan Dang**
+- **Phuong Ta**
+
+---
+
 ## ⚖️ License
 
 This project was developed for academic purposes at **Metropolia University of Applied Sciences**. User can freely use this project for educational purpose ONLY.
