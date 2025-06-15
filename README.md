@@ -1,7 +1,15 @@
 # 🔌 Smart Plug IoT Project
 ![](SmartPlug_IoT.jpg)
 
-This repository contains the implementation details for the Smart Plug, a third-year IoT project developed at Metropolia University of Applied Sciences by Mong Phan, Nadim Tran, Phuong Duong, and Xuan Dang, submitted on March 12, 2025. The project delivers an IoT-based smart plug for remote monitoring and control of electrical appliances, enhancing energy efficiency and user convenience through real-time power monitoring, scheduling, and customizable power limits.
+This repository contains the implementation details for the Smart Plug, a third-year IoT project developed at Metropolia University of Applied Sciences by Mong Phan, Nadim Tran, Phuong Duong, and Xuan Dang, submitted on March 12, 2025.   
+A complete end-to-end IoT smart plug system, designed from scratch, from custom PCB layout to firmware
+              development and final functionality testing. Built on Raspberry Pi Pico W and FreeRTOS, the system uses a
+              modular, multi-tasking architecture with rich inter-task communication via queues, semaphores, and event
+              groups to manage concurrent operations such as power sensing, MQTT communication, OTA updates, LCD display
+              control, and safety enforcement. Features include real-time power tracking with ACS712, configurable power
+              limits, a full-color local display, remote scheduling, and secure cloud interaction via MQTT. This project
+              showcases a full-stack embedded design approach integrating hardware, firmware, cloud services, and
+              front-end control.
 
 ## 📖 Project Report
 
